@@ -1,4 +1,4 @@
-module Ascidian
+module EmbryonicCollectiveExpressionCore
 
 include("ClassDefinitions.jl")
 include("ExtractCounts.jl")

@@ -1,6 +1,6 @@
-# Ascidian
+# EmbryonicCollectiveExpressionCore
 
-A Julia package providing core analysis tools for Ascidian single-cell RNA-seq data. This library includes clustering routines, empirical statistic computations, and maximum-entropy model fitting. The main package, demonstrating in detail how to use these tools is at ...
+A Julia package providing core analysis tools for Ascidian single-cell RNA-seq data. This library includes clustering routines, empirical statistic computations, and maximum-entropy model fitting. The main package, demonstrating in detail how to use these tools is at [https://github.com/Dom-Skinner/EmbryonicCollectiveExpression](https://github.com/Dom-Skinner/EmbryonicCollectiveExpression)
 
 ---
 
@@ -21,7 +21,7 @@ A Julia package providing core analysis tools for Ascidian single-cell RNA-seq d
 mkdir -p ~/.julia/dev/
 
 # Clone into Julia's development folder
-git clone https://github.com/<username>/Ascidian.git ~/.julia/dev/Ascidian
+git clone https://github.com/Dom-Skinner/EmbryonicCollectiveExpressionCore.git ~/.julia/dev/EmbryonicCollectiveExpressionCore
 ```
 
 ### 2. Register the package in Julia
@@ -30,8 +30,8 @@ Launch the Julia REPL and run:
 
 ```julia
 using Pkg
-Pkg.activate("~/.julia/dev/Ascidian")
-Pkg.develop(path="~/.julia/dev/Ascidian")
+Pkg.activate("~/.julia/dev/EmbryonicCollectiveExpressionCore")
+Pkg.develop(path="~/.julia/dev/EmbryonicCollectiveExpressionCore")
 ```
 
 ### 3. Install Python dependencies
@@ -79,10 +79,10 @@ Place the appropriate executable in this repo’s `bin/` directory:
 
 ## Usage
 
-After installation, you can use Ascidian in your Julia scripts or REPL:
+After installation, you can use in your Julia scripts or REPL:
 
 ```julia
-using Ascidian
+using EmbryonicCollectiveExpressionCore
 
 # Example: run PCA
 GE = load("path_to_data.h5")

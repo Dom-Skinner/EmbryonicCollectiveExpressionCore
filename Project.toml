@@ -1,6 +1,6 @@
-name = "Ascidian"
+name = "EmbryonicCollectiveExpressionCore"
 uuid = "589ce898-d8bb-44f6-a5a8-80fd89376e78"
-authors = ["dominic "]
+authors = ["Dominic J. Skinner"]
 version = "0.1.0"
 
 [deps]
