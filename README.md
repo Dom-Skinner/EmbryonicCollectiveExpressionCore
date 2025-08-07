@@ -30,8 +30,8 @@ Launch the Julia REPL and run:
 
 ```julia
 using Pkg
-Pkg.activate("~/.julia/dev/EmbryonicCollectiveExpressionCore")
-Pkg.develop(path="~/.julia/dev/EmbryonicCollectiveExpressionCore")
+Pkg.activate(homedir()*"/.julia/dev/EmbryonicCollectiveExpressionCore")
+Pkg.develop(path=homedir()*"/.julia/dev/EmbryonicCollectiveExpressionCore")
 ```
 
 ### 3. Install Python dependencies
